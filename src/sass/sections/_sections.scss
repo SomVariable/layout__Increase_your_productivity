@@ -1,0 +1,27 @@
+@import '../variables/variables';
+@import 'header';
+@import 'blog';
+@import 'customers';
+@import 'faq';
+@import 'features';
+@import 'footer';
+@import 'get-started';
+@import 'hero-image';
+@import 'newsletter';
+@import 'plan-and-manage';
+@import 'quotes';
+@import 'stats';
+
+.section-outer{
+    border-bottom: 1px solid $color-divider;
+}
+
+.section-inner{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: $padding-vertical 0;
+
+    &--wide{
+        max-width: 1200px;
+    }
+}

@@ -1,0 +1,74 @@
+
+// === stats ===
+
+.section-stats{
+    background-color: #E9EFFF;
+}
+
+.stats{
+    display: flex;
+    height: 340px;
+    &__left{
+        width:50%;
+        background-color: $color-secondary;
+    }
+
+    &__right{
+        width:50%;
+        background-color: $color-divider;
+    }
+
+    &__productivity{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        margin-right: 90px;
+
+        h2{
+            @include quicksand();
+            color: #fff;
+
+        }
+
+        .text{
+            display: flex;
+            text-align: right;
+            color: #FFFFFF;
+        }
+    }
+
+    &__users{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin-left: 90px;
+        h2{
+            @include quicksand();
+            color: #5E80FF;
+            letter-spacing: 0.03em;
+        }
+        .text{
+            color: #5E80FF;
+        }
+    }
+
+    .text{
+        @include quicksand();       
+        line-height: 23px;
+        letter-spacing: 0.03em;
+        font-weight: $fw-medium;
+        font-size: $fs-md;
+        width:260px;
+    }
+
+    h2{
+        margin-bottom: 21px;
+    }
+
+    img{
+        margin: 66px 0 24px 0;
+    }
+}
+
+
+// === / stats ===

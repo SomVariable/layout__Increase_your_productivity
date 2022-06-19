@@ -1,0 +1,83 @@
+
+// === faq ===
+
+.section-faq{
+    &__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 176px 75px;
+    }
+
+    &__header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 68px;
+    }
+    &__accordion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+
+        &-item{
+            width: 80%;
+            padding-bottom: 33px;
+            margin-bottom: 37px;
+            border-bottom: 1px solid $color-divider;
+            .text{
+                display: inline;
+                font-family: 'Quicksand';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 19px;
+                letter-spacing: 0.03em;
+                color: $color-primary;
+            }
+            .body{
+                display: none;
+            }
+
+            svg{
+                margin-right: 24px;
+            }
+
+            &--active{
+                .preview{
+                    .text{
+                        color: $color-primary;
+                    }
+                    
+                }
+                svg{
+                    
+                    transform: rotate(180deg)
+                    
+                }
+                .body{
+                    display: flex;
+                    padding: 16px 0 53px 80px;
+
+                    .text{
+                        flex-basis: 60%;
+                        margin-right: 10%;
+                    }
+
+                    .btn-icon-play-wrapper{
+                        flex-basis: 30%;
+                    }
+                }
+            }
+        }
+        
+
+
+    }
+}
+
+// === / faq ===

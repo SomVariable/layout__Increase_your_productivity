@@ -1,0 +1,94 @@
+
+// === header ===
+
+.logo{
+    display: block;
+    width: 26px;
+    height: 26px;
+    border-radius: 100%;
+    background-color: $color-secondary;
+}
+
+
+.section-header{
+    .section-inner{
+        padding: $padding-vertical-xs 0;
+    }
+}
+
+.main-navigation{
+    display: flex;
+    align-items: center;
+
+    .btn-wrapper{
+        margin-left: 44px;
+    }
+}
+
+.nav{
+    margin-left: 72px;
+}
+
+.nav-wrapper{
+    display: flex;
+    margin:0;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+    
+    &__item{
+        & + &{
+            margin-left: 40px;
+        }
+        &-link{
+            @include quicksand;
+
+            color: $color-primary;
+            font-size: $fs-sm;
+            text-decoration: none;
+            font-weight: $fw-medium;
+            transition: $transition;
+
+            &:hover{
+                color: $color-secondary;
+            }
+
+            &--active{
+                color: $color-secondary;
+                font-weight: $fw-bold;
+            }
+        }
+    }
+}
+
+.socials{
+    margin-left: auto;
+}
+
+.socials-wrapper{
+    display: flex;
+    margin:0;
+    padding: 0;
+    align-items: center;
+    list-style: none;
+    &__item{
+        & + &{
+            margin-left: 37px;
+        }
+        &-link{
+            path{
+                fill: $color-primary;
+                transition: $transition;
+            }
+            &:hover{
+                path{
+                    fill: $color-secondary;
+                }
+            }
+        }
+    }
+}
+
+
+
+// === / header ===

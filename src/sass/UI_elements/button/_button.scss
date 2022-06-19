@@ -1,0 +1,50 @@
+.btn{
+    @include quicksand;
+
+    display: block;
+    margin: 0;
+    padding: 12px 16px;
+    border-radius: 2px;
+    background-color: none;
+    font-weight: $fw-bold;
+    font-size: $fs-sm;
+    text-decoration: none;
+    transition: $transition;
+
+    &--primary{
+        color: #3A79FF;
+        background-color: #D2E1FF;
+        &:hover{
+            background-color: darken(#D2E1FF, 2%);
+        }
+    }
+
+    &--secondary{
+        color: #FFFFFF;
+        background-color: #4C85FF;
+    }
+
+    &--no_background{
+        color: #ADB4D2;
+        background-color: none;
+        border: 1px solid #D1D1E4;
+    }
+
+    &--dangerous{
+        color: #D43F3F;
+        background-color: #FFD7D7;
+        border: 1px solid #D1D1E4;
+    }
+}
+
+.btns_group{
+    display: flex;
+    a:nth-child(1){
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    a:nth-child(2){
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+}

@@ -1,0 +1,26 @@
+
+
+// === newsletter ===
+
+.section-newsletter{
+    &__content{
+        display: flex;
+        align-items: center;
+    }
+
+    &__text{
+        flex-basis: 40%;
+        margin-right: 10%;
+    }
+
+    &__forma{
+        display: flex;
+        flex-basis: 50%;
+        input{
+            background-color: $color-divider;
+            margin-right: 14px;
+        }
+    }
+}
+
+// === / newsletter ===

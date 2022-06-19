@@ -1,0 +1,58 @@
+
+// === quotes ===
+
+.section-quotes{
+    background-color: #EAF0FF;
+    
+    &__title{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin-right: 10%;
+        flex-basis: 40%;
+    }
+    &__content{
+        display: flex;
+        align-items: center;
+    }
+    &__testimonials{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-basis: 50%;
+
+        &-block{
+            position: relative;
+            display: flex;
+            background-color: #F3F5FA;
+            width: 423px;
+            padding: 40px 70px;
+
+            &--disablet{
+                position: absolute;
+                opacity: .45;
+                right: -64px;
+            }
+
+            &--active{
+                position: relative;
+            }
+        }
+        .avatar{
+            position: absolute;
+            bottom: -32px;
+            left: 45%;
+        }
+    }
+    .dots{
+        margin-top: 80px;
+    }
+}
+
+
+.avatar{
+    width: 62px;
+    height: 62px;
+    border-radius: 100%;
+}
+// === / quotes ===

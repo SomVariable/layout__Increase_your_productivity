@@ -1,0 +1,31 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @include quicksand;
+
+    padding: 0;
+    margin: 0;
+    font-weight: $fw-regular;
+    color: #3d4f9f;
+}
+
+h1,
+h2{
+    margin-bottom: 28px;
+    font-size: 48px;
+}
+h3{font-size: 36px;}
+h4{font-size: 24px;}
+h5{
+    @include roboto; 
+
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.1em;
+    letter-spacing: 0.1em;
+}

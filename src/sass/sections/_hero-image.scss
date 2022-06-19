@@ -1,0 +1,81 @@
+// === hero-image ===
+
+.section-hero-image{
+    position: relative;
+    background-color: $color-divider;
+
+
+    .dots{
+        position: absolute;
+        left: 49%;
+        bottom: 28px;
+    }
+}
+
+.slider-hero-image{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+    &__item{
+        width: 100%;
+        height: 670px;
+        text-align: center;
+        background-image: url('../img/slides/hero_image-1.png');
+        background-position: 50% 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        &-content{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 85px;
+            
+            h2{
+                font-weight: $fw-light;
+
+                span{
+                    font-weight: $fw-medium;
+                }
+            }
+
+            .text{
+                @include roboto;
+                width: 502px;
+                height: 78px;
+                margin: 30px 0 20px 0;
+                font-weight: $fw-medium;
+                font-size: $fs-md;
+                line-height: 1.5;
+                text-align: center;
+                letter-spacing: 0.03em;
+            }
+        }
+    }
+}
+
+.icon_play{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 52px;
+    height: 52px;
+    background-color: #fff;
+    border-radius: 100%;
+    box-shadow: 0 10px 50px rgba(#C9D1E7, .6);
+
+    &::before {
+        display: block;
+        width: 0;
+        height: 0;
+        margin-left: 16px;
+        content: '';
+        border-color: transparent;
+        border-width: 8px 12px;
+        border-style: solid;
+        border-left-color: $color-secondary;
+    }
+}
+
+// === / hero-image ===

@@ -1,0 +1,20 @@
+
+// === footer ===
+
+.section-footer{
+    border-bottom: none;
+    .section-inner{
+        padding: $padding-vertical-sm 0;
+    }
+}
+
+.copyright{
+    @include quicksand;
+
+    font-size: $fs-md;
+    font-weight: $fw-medium;
+    padding: 28px 0 0 100px;
+    color: $color-primary;
+}
+
+// === / footer ===

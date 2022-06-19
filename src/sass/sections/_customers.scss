@@ -1,0 +1,37 @@
+
+
+.section-customers{
+    
+    &-wrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+        &__logo + &__logo{
+            padding-left: 75px;
+            transition: $transition;
+        }
+
+        &__logo{
+            path{
+                transition: $transition;
+                fill: $color-divider;
+            }
+            &:hover{
+                path{
+                    fill: $color-secondary;
+                }
+            }
+        }
+
+        
+    }
+    .section-inner{
+        padding: $padding-vertical-sm 0;
+        
+    }
+}
+
+// === / customers ===

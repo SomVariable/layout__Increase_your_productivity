@@ -1,0 +1,20 @@
+
+// === get-started ===
+
+.section-get-started{
+    background-color: $color-secondary;
+    .section-inner--wide{
+        align-items: center;
+        background-image: url('../img/getStarted/clouds.png') ;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    &__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 91px 364px;
+    }
+}
+
+// === / get-started ===
