@@ -1,9 +1,7 @@
-
-
 // === blog ===
 .section-blog{
     position: relative;
-    background-color: $color-divider;
+    background-color: #F5F8FF;
 }
 
 .slider-blog{
@@ -25,7 +23,7 @@
     &__item{
         display: flex;
         align-items: center;
-        background-color:$color-divider;
+        background-color:#F5F8FF ;
         padding: 63px 35px;
         &-illustration{
             flex-basis: 42%;

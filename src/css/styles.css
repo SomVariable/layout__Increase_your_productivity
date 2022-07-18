@@ -183,7 +183,7 @@ h5 {
 
 .section-blog {
   position: relative;
-  background-color: #d8e3fe;
+  background-color: #F5F8FF;
 }
 
 .slider-blog {
@@ -201,7 +201,7 @@ h5 {
 .slider-blog__item {
   display: flex;
   align-items: center;
-  background-color: #d8e3fe;
+  background-color: #F5F8FF;
   padding: 63px 35px;
 }
 .slider-blog__item-illustration {
@@ -640,7 +640,7 @@ h5 {
 .stats__productivity .text {
   display: flex;
   text-align: right;
-  color: #FFFFFF;
+  color: #fff;
 }
 .stats__users {
   display: flex;
@@ -650,11 +650,11 @@ h5 {
 }
 .stats__users h2 {
   font-family: "Quicksand", sans-serif;
-  color: #5E80FF;
+  color: #5E81FE;
   letter-spacing: 0.03em;
 }
 .stats__users .text {
-  color: #5E80FF;
+  color: #5E81FE;
 }
 .stats .text {
   font-family: "Quicksand", sans-serif;
