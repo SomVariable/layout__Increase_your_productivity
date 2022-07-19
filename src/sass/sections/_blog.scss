@@ -13,9 +13,11 @@
     &__list{
         width: 960px;
     }
+    .section-subtitle{
+        font-size: 24px;
+        font-weight: $fw-medium;
+    }
 
-
-    
     .section-inner{
         padding: 0;
     }

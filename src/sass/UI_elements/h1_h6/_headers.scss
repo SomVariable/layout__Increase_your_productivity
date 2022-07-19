@@ -12,14 +12,7 @@ h6 {
     color: #3d4f9f;
 }
 
-h1,
 h2{
-    margin-bottom: 28px;
-    font-size: 48px;
-}
-h3{font-size: 36px;}
-h4{font-size: 24px;}
-h5{
     @include roboto; 
 
     margin-bottom: 16px;
@@ -29,3 +22,4 @@ h5{
     letter-spacing: 0.1em;
     letter-spacing: 0.1em;
 }
+

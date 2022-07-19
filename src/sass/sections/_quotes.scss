@@ -14,6 +14,11 @@
         display: flex;
         align-items: center;
     }
+    .section-subtitle{
+        font-size: 36px;
+        font-weight: $fw-medium;
+    }
+
     &__testimonials{
         display: flex;
         flex-direction: column;

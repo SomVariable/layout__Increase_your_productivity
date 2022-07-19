@@ -8,6 +8,10 @@
         align-items: center;
         padding: 176px 75px;
     }
+    .section-subtitle{
+        font-size: 24px;
+        font-weight: $fw-medium;
+    }
 
     &__header{
         display: flex;
