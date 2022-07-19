@@ -60,19 +60,6 @@ h6 {
 }
 
 h2 {
-  margin-bottom: 28px;
-  font-size: 48px;
-}
-
-h3 {
-  font-size: 36px;
-}
-
-h4 {
-  font-size: 24px;
-}
-
-h5 {
   font-family: "Roboto", sans-serif;
   margin-bottom: 16px;
   text-transform: uppercase;
@@ -117,6 +104,17 @@ h5 {
   overflow: hidden;
   border: 0;
   clip: rect(0 0 0 0);
+}
+
+.section-subtitle {
+  font-family: "Quicksand", sans-serif;
+  margin-bottom: 28px;
+  color: #3D4F9F;
+  font-size: 48px;
+  font-weight: 100;
+}
+.section-subtitle span {
+  font-weight: 500;
 }
 
 .logo {
@@ -205,6 +203,10 @@ h5 {
 .slider-blog__list {
   width: 960px;
 }
+.slider-blog .section-subtitle {
+  font-size: 24px;
+  font-weight: 500;
+}
 .slider-blog .section-inner {
   padding: 0;
 }
@@ -279,6 +281,10 @@ h5 {
   align-items: center;
   padding: 176px 75px;
 }
+.section-faq .section-subtitle {
+  font-size: 24px;
+  font-weight: 500;
+}
 .section-faq__header {
   display: flex;
   flex-direction: column;
@@ -344,12 +350,9 @@ h5 {
   align-items: center;
   width: 770px;
 }
-.features h5 {
-  padding: 0;
-  margin-bottom: 20px;
-}
-.features h4 {
-  margin-bottom: 92px;
+.features .section-subtitle {
+  font-size: 24px;
+  font-weight: 500;
 }
 .features__content {
   display: flex;
@@ -474,7 +477,7 @@ h5 {
   width: 100%;
   height: 670px;
   text-align: center;
-  background-image: url("../img/slides/hero_image-1.png");
+  background-image: url("../img/hero-image/hero_image.png");
   background-position: 50% 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -484,12 +487,6 @@ h5 {
   flex-direction: column;
   align-items: center;
   padding-top: 85px;
-}
-.slider-hero-image__item-content h2 {
-  font-weight: 100;
-}
-.slider-hero-image__item-content h2 span {
-  font-weight: 500;
 }
 .slider-hero-image__item-content .text {
   font-family: "Roboto", sans-serif;
@@ -584,6 +581,10 @@ h5 {
 .section-quotes__content {
   display: flex;
   align-items: center;
+}
+.section-quotes .section-subtitle {
+  font-size: 36px;
+  font-weight: 500;
 }
 .section-quotes__testimonials {
   display: flex;

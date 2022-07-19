@@ -9,15 +9,11 @@
     align-items: center;
     width: 770px;
 
-    h5{
-        padding: 0;
-        margin-bottom: 20px ;
+    .section-subtitle{
+        font-size: 24px;
+        font-weight: $fw-medium;
     }
-
-    h4{
-        margin-bottom: 92px;
-    }
-
+    
     &__content{
         display: flex;
         list-style: none;

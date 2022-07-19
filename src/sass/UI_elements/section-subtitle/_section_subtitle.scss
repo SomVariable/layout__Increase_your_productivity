@@ -1,0 +1,11 @@
+.section-subtitle{
+    @include quicksand;
+    margin-bottom: 28px;
+    color: #3D4F9F;
+    font-size: 48px;
+    font-weight: $fw-light;
+    
+    span{
+        font-weight: $fw-medium;
+    }
+}
