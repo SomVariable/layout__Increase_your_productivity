@@ -1,6 +1,6 @@
 
 .section-plan-and-manage{
-    background-color: #F5F8FF;
+    background-color: $color-gray-50;
 }
 
 .plan-and-manage{
@@ -14,11 +14,6 @@
         flex-direction: column;
         min-width: 404px;
         margin-right: 64px;
-        
-        h5{
-            @include roboto();
-            margin-bottom: 27px;
-        }
 
         h2{
             margin-bottom: 27px;
@@ -26,11 +21,8 @@
 
         .text{
             margin-bottom: 39px;
-            line-height: 29px;
-            letter-spacing: 0.03em;
         }
 
-        
     }
 
 }

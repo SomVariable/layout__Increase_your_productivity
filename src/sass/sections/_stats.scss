@@ -1,7 +1,7 @@
 // === stats ===
 
 .section-stats{
-    background-color: #E9EFFF;
+    background-color: $color-blue-50;
 }
 
 .stats{
@@ -9,12 +9,11 @@
     height: 340px;
     &__left{
         width:50%;
-        background-color: $color-secondary;
+        background-color: $color-blue-400;
     }
 
     &__right{
         width:50%;
-        background-color: $color-divider;
     }
 
     &__productivity{
@@ -22,12 +21,7 @@
         flex-direction: column;
         align-items: end;
         margin-right: 90px;
-
-        h2{
-            @include quicksand();
-            color: $color-white;
-
-        }
+        color: $color-white;
 
         .text{
             display: flex;
@@ -36,33 +30,26 @@
         }
     }
 
+    &__value{
+        @include quicksand;
+        font-weight: $fw-regular;
+        font-size: $fs-xxl;
+    }
+
     &__users{
         display: flex;
         flex-direction: column;
         align-items: start;
         margin-left: 90px;
-        
-        h2{
-            @include quicksand();
-            color: $color-secondary;
-            letter-spacing: 0.03em;
-        }
+        color: $color-blue-600;
         .text{
-            color: $color-secondary;
+            color: $color-blue-600;
         }
     }
 
-    .text{
-        @include quicksand();       
+    .text{   
         line-height: 23px;
-        letter-spacing: 0.03em;
-        font-weight: $fw-medium;
-        font-size: $fs-md;
         width:260px;
-    }
-
-    h2{
-        margin-bottom: 21px;
     }
 
     img{

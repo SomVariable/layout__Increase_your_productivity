@@ -11,10 +11,10 @@
 .copyright{
     @include quicksand;
 
-    font-size: $fs-md;
+    font-size: $fs-s;
     font-weight: $fw-medium;
     padding: 28px 0 0 100px;
-    color: $color-primary;
+    color: $color-gray-800;
 }
 
 // === / footer ===

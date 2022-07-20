@@ -5,27 +5,27 @@ $fw-regular: 400;
 $fw-medium: 500;
 $fw-bold: 700;
 
-$fs-sm: 12px;
-$fs-md: 15px;
+$fs-xxs: 10px;
+$fs-xs: 12px;
+$fs-s: 15px;
+$fs-m: 18px;
+$fs-l: 24px;
+$fs-xl: 36px;
+$fs-xxl: 48px;
 
 
 $padding-vertical-xs: 20px;
 $padding-vertical-sm: 60px;
 $padding-vertical: 120px;
 
-$color-divider: #d8e3fe;
-$color-primary: #697CA6;
-$color-secondary:#5E81FE;
-$color-white: #fff;
-
-
 $transition: .2s;
 
 //colors
 
+$color-white: #fff;
+
 //cian
 $color-cian-500: #35aaff;
-
 
 //red
 $color-danger-400: #ffd7d7;
@@ -43,6 +43,7 @@ $color-gray-600: #7382a3;
 $color-gray-700: #7a85ad;
 $color-gray-800: #676f95;
 $color-gray-900: #495274;
+$color-test: #DAE4FE;
 
 //blue
 $color-blue-50: #e9efff;
@@ -55,6 +56,9 @@ $color-blue-600: #5283ff;
 $color-blue-700: #3a79ff;
 $color-blue-800: #4074f8;
 $color-blue-900: #3d4f9f;
+
+
+
 
 //  === / Variables === 
 

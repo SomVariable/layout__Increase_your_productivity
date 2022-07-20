@@ -6,7 +6,7 @@
     width: 26px;
     height: 26px;
     border-radius: 100%;
-    background-color: $color-secondary;
+    background-color: $color-blue-400;
 }
 
 
@@ -43,18 +43,18 @@
         &-link{
             @include quicksand;
 
-            color: $color-primary;
-            font-size: $fs-sm;
+            color: $color-gray-800;
+            font-size: $fs-xs;
             text-decoration: none;
             font-weight: $fw-medium;
             transition: $transition;
 
             &:hover{
-                color: $color-secondary;
+                color: $color-blue-400;
             }
 
             &--active{
-                color: $color-secondary;
+                color: $color-blue-400;
                 font-weight: $fw-bold;
             }
         }
@@ -77,12 +77,12 @@
         }
         &-link{
             path{
-                fill: $color-primary;
+                fill: $color-gray-300;
                 transition: $transition;
             }
             &:hover{
                 path{
-                    fill: $color-secondary;
+                    fill: $color-gray-600;
                 }
             }
         }

@@ -35,16 +35,17 @@
 
             .feature_name{
                 display: inline-block;
+                color: $color-blue-500;
+                font-weight: $fw-bold;
                 padding-bottom: 25px;
             }
 
             .text{
-                font-weight: 600;
-                font-size: $fs-sm;
+                font-weight: $fw-medium;
+                font-size: $fs-xs;
                 margin-bottom: 92px;
                 line-height: 19px;
                 text-align: center;
-                color: #ADB3CB;
             }
 
             & + &{
@@ -57,7 +58,7 @@
                 width: 28px;
                 right: 110%;
                 top: 40%;
-                border: 1px solid $color-divider;
+                border: 1px solid $color-gray-100;
             }
         }
     }
@@ -73,7 +74,7 @@
     align-items: center;
     position: relative;
     padding: 0 50px;
-    font-size: $fs-sm;
+    font-size: $fs-xs;
     line-height: 19px;
     text-align: center;
     color: #ADB3CB;

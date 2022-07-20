@@ -1,7 +1,7 @@
 // === blog ===
 .section-blog{
     position: relative;
-    background-color: #F5F8FF;
+    background-color: $color-gray-50;
 }
 
 .slider-blog{
@@ -14,7 +14,7 @@
         width: 960px;
     }
     .section-subtitle{
-        font-size: 24px;
+        font-size: $fs-l;
         font-weight: $fw-medium;
     }
 

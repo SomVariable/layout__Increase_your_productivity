@@ -17,11 +17,11 @@
         &__logo{
             path{
                 transition: $transition;
-                fill: $color-divider;
+                fill: $color-gray-100;
             }
             &:hover{
                 path{
-                    fill: $color-secondary;
+                    fill: $color-blue-400;
                 }
             }
         }

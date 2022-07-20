@@ -1,1 +1,10 @@
 .ta-c{text-align: center;}
+
+.text{
+    @include quicksand;
+    font-weight: $fw-regular;
+    font-size: $fs-s;
+    line-height: 27px;
+    letter-spacing: 0.03em;
+    color: $color-gray-500;
+}
