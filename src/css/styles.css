@@ -458,7 +458,19 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 91px 364px;
+  padding: 91px 395px;
+}
+.section-get-started h2, .section-get-started .section-subtitle, .section-get-started .text {
+  color: #fff;
+}
+.section-get-started .text {
+  text-align: center;
+  max-width: 712px;
+  margin-bottom: 28px;
+}
+.section-get-started .btn--secondary {
+  background-color: #fff;
+  color: #565F82;
 }
 
 .section-hero-image {

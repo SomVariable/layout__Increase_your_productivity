@@ -13,8 +13,24 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 91px 364px;
+        padding: 91px 395px;
+        
     }
+    h2, .section-subtitle, .text{
+        color: $color-white;
+    }
+
+    .text{
+        text-align: center;
+        max-width: 712px;
+        margin-bottom: 28px;
+    }
+
+    .btn--secondary{
+        background-color: $color-white;
+        color: #565F82;
+    }
+
 }
 
 // === / get-started ===
