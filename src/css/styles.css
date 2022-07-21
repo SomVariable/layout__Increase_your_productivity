@@ -470,7 +470,7 @@ h2 {
 }
 .section-get-started .btn--secondary {
   background-color: #fff;
-  color: #565F82;
+  color: #495274;
 }
 
 .section-hero-image {
@@ -545,8 +545,12 @@ h2 {
   flex-basis: 50%;
 }
 .section-newsletter__forma input {
-  background-color: #5e81fe;
+  color: #7a85ad;
+  background-color: #f5f8ff;
   margin-right: 14px;
+  border: 0;
+  border-radius: 5px;
+  padding-left: 23px;
 }
 
 .section-plan-and-manage {
