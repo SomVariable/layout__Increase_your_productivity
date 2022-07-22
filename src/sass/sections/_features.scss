@@ -9,7 +9,7 @@
     width: 770px;
 
     .section-subtitle{
-        font-size: 24px;
+        font-size: $fs-l;
         font-weight: $fw-medium;
     }
     
@@ -30,32 +30,32 @@
             }
             svg{
                 display: block;
-                padding-bottom: 33px;
+                padding-bottom: $base * 8;
             }
 
             .feature_name{
                 display: inline-block;
                 color: $color-blue-500;
                 font-weight: $fw-bold;
-                padding-bottom: 25px;
+                padding-bottom: $base * 6;
             }
 
             .text{
                 font-weight: $fw-medium;
                 font-size: $fs-xs;
-                margin-bottom: 92px;
+                margin-bottom: $base * 23;
                 line-height: 19px;
                 text-align: center;
             }
 
             & + &{
-                margin-left: 70px;
+                margin-left: $base * 18;
             }
 
             & + &::before{
                 position: absolute;
                 content: '';
-                width: 28px;
+                width: $base * 7;
                 right: 110%;
                 top: 40%;
                 border: 1px solid $color-gray-100;
@@ -89,10 +89,10 @@
     }
 
     &::before{
-        left: 16px;
+        left: $base * 4;
     }
     &::after{
-        right: 16px;
+        right: $base * 4;
     }
 }
 

@@ -1,5 +1,4 @@
-
-
+// ===  customers ===
 .section-customers{
     
     &-wrapper{
@@ -10,7 +9,7 @@
         cursor: pointer;
 
         &__logo + &__logo{
-            padding-left: 75px;
+            padding-left: $base * 18;
             transition: $transition;
         }
 

@@ -13,7 +13,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 91px 395px;
+        padding: $base * 23 $base * 98;
         
     }
     h2, .section-subtitle, .text{
@@ -22,8 +22,8 @@
 
     .text{
         text-align: center;
-        max-width: 712px;
-        margin-bottom: 28px;
+        max-width: $base * 178;
+        margin-bottom: $base * 7;
     }
 
     .btn--secondary{
