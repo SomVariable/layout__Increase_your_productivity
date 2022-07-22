@@ -1,8 +1,8 @@
 .section-subtitle{
     @include quicksand;
-    margin-bottom: 28px;
-    color: #3D4F9F;
-    font-size: 48px;
+    margin-bottom: $base * 7;
+    color: $color-blue-900;
+    font-size: $fs-xxl;
     font-weight: $fw-light;
     
     span{

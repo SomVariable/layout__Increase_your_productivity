@@ -1,5 +1,3 @@
-@import '../functions/functions';
-@import '../variables/variables';
 @import 'header';
 @import 'blog';
 @import 'customers';
@@ -20,7 +18,6 @@
 .section-inner{
     max-width: 900px;
     margin: 0 auto;
-    padding: $padding-vertical 0;
 
     &--wide{
         max-width: 1200px;

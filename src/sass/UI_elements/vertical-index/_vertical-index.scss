@@ -1,0 +1,16 @@
+.vertical-index{
+    &--s{
+        padding-top: $base * 5;
+        padding-bottom: $base * 5;
+    }
+
+    &--m{
+        padding-top: $base * 15;
+        padding-bottom: $base * 15;
+    }
+
+    &--l{
+        padding-top: $base * 30;
+        padding-bottom: $base * 30;
+    }
+}

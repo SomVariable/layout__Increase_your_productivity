@@ -9,17 +9,15 @@ h6 {
     padding: 0;
     margin: 0;
     font-weight: $fw-regular;
-    color: #3d4f9f;
+    color: $color-blue-900;
 }
 
 h2{
     @include roboto; 
-
-    margin-bottom: 16px;
+    margin-bottom: $base * 4;
     text-transform: uppercase;
-    font-size: 10px;
-    line-height: 12px;
-    letter-spacing: 0.1em;
+    font-size: $fs-xxs;
+    line-height: $base * 3;
     letter-spacing: 0.1em;
 }
 

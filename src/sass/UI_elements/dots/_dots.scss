@@ -8,18 +8,18 @@
     list-style: none;
 
     &__item {
-        width: 8px;
-        height: 8px;
+        width: $base * 2;
+        height: $base * 2;
         cursor: pointer;
         border-radius: 100%;
-        background-color: #D1D6E3;
+        background-color: $color-gray-300;
         transition: $transition;
 
         &--active {
-            background-color: #5283ff;
+            background-color: $color-blue-600;
         }
         & + &{
-            margin-left: 12px;
+            margin-left: $base * 3;
         }
     }
 }

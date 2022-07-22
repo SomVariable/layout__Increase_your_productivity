@@ -4,7 +4,7 @@
     @include quicksand;
     font-weight: $fw-regular;
     font-size: $fs-s;
-    line-height: 27px;
+    line-height: $base * 6;
     letter-spacing: 0.03em;
     color: $color-gray-500;
 }
