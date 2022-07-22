@@ -146,10 +146,6 @@ h2 {
   background-color: #5e81fe;
 }
 
-.section-header .section-inner {
-  padding: 20px 0;
-}
-
 .main-navigation {
   display: flex;
   align-items: center;
@@ -291,9 +287,6 @@ h2 {
 }
 .section-customers-wrapper__logo:hover path {
   fill: #5e81fe;
-}
-.section-customers .section-inner {
-  padding: 60px 0;
 }
 
 .section-faq__content {
@@ -444,9 +437,6 @@ h2 {
 
 .section-footer {
   border-bottom: none;
-}
-.section-footer .section-inner {
-  padding: 60px 0;
 }
 
 .copyright {

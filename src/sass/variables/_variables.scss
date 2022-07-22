@@ -16,10 +16,17 @@ $fs-xxl: 48px;
 
 $base: rem(4px);
 
+$breakpoint-sm-min : 576px;
+$breakpoint-sm-max : $breakpoint-sm-min - 1;
+$breakpoint-md-min : 768px;
+$breakpoint-md-max : $breakpoint-md-min - 1;
+$breakpoint-lg-min : 992px;
+$breakpoint-lg-max : $breakpoint-lg-min - 1;
+$breakpoint-xl-min : 1200px;
+$breakpoint-xl-max : $breakpoint-xl-min - 1;
+$breakpoint-xxl-min : 1400px;
+$breakpoint-xxl-max : $breakpoint-xxl-min - 1;
 
-$padding-vertical-xs: 20px;
-$padding-vertical-sm: 60px;
-$padding-vertical: 120px;
 
 $transition: .2s;
 
@@ -46,7 +53,7 @@ $color-gray-600: #7382a3;
 $color-gray-700: #7a85ad;
 $color-gray-800: #676f95;
 $color-gray-900: #495274;
-$color-test: #4C85FF;
+$color-test: #F3F5FA;
 
 //blue
 $color-blue-50: #e9efff;
