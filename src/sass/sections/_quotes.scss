@@ -1,7 +1,7 @@
 // === quotes ===
 
 .section-quotes{
-    background-color: #EAF0FF;
+    background-color: $color-blue-50;
     
     &__title{
         display: flex;
@@ -15,7 +15,7 @@
         align-items: center;
     }
     .section-subtitle{
-        font-size: 36px;
+        font-size: $fs-xl;
         font-weight: $fw-medium;
     }
 
@@ -28,14 +28,14 @@
         &-block{
             position: relative;
             display: flex;
-            background-color: #F3F5FA;
-            width: 423px;
-            padding: 40px 70px;
+            background-color: $color-gray-50;
+            width: $base * 105;
+            padding: $base * 10 $base * 17;
 
             &--disablet{
                 position: absolute;
                 opacity: .45;
-                right: -64px;
+                right: -$base * 16;
             }
 
             &--active{
@@ -44,19 +44,19 @@
         }
         .avatar{
             position: absolute;
-            bottom: -32px;
+            bottom: -$base * 8;
             left: 45%;
         }
     }
     .dots{
-        margin-top: 80px;
+        margin-top: $base * 20;
     }
 }
 
 
 .avatar{
-    width: 62px;
-    height: 62px;
+    width: $base * 15;
+    height: $base * 15;
     border-radius: 100%;
 }
 // === / quotes ===

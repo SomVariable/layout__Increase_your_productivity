@@ -6,7 +6,7 @@
 
 .stats{
     display: flex;
-    height: 340px;
+    height: $base * 85;
     &__left{
         width:50%;
         background-color: $color-blue-400;
@@ -20,7 +20,7 @@
         display: flex;
         flex-direction: column;
         align-items: end;
-        margin-right: 90px;
+        margin-right: $base * 22;
         color: $color-white;
 
         .text{
@@ -40,7 +40,7 @@
         display: flex;
         flex-direction: column;
         align-items: start;
-        margin-left: 90px;
+        margin-left: $base * 22;
         color: $color-blue-600;
         .text{
             color: $color-blue-600;
@@ -53,7 +53,7 @@
     }
 
     img{
-        margin: 66px 0 24px 0;
+        margin: $base * 16 0 $base * 7 0;
     }
 }
 

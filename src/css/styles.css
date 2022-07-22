@@ -559,10 +559,10 @@ h2 {
 .section-newsletter__forma input {
   color: #7a85ad;
   background-color: #f5f8ff;
-  margin-right: 14px;
+  margin-right: 0.75rem;
   border: 0;
-  border-radius: 5px;
-  padding-left: 23px;
+  border-radius: 0.25rem;
+  padding-left: 1.5rem;
 }
 
 .section-plan-and-manage {
@@ -573,23 +573,23 @@ h2 {
   display: flex;
   position: relative;
   align-items: center;
-  height: 776px;
+  height: 48.5rem;
 }
 .plan-and-manage__content {
   display: flex;
   flex-direction: column;
-  min-width: 404px;
-  margin-right: 64px;
+  min-width: 25.25rem;
+  margin-right: 4rem;
 }
 .plan-and-manage__content h2 {
-  margin-bottom: 27px;
+  margin-bottom: 2rem;
 }
 .plan-and-manage__content .text {
-  margin-bottom: 39px;
+  margin-bottom: 2.5rem;
 }
 
 .section-quotes {
-  background-color: #EAF0FF;
+  background-color: #e9efff;
 }
 .section-quotes__title {
   display: flex;
@@ -615,30 +615,30 @@ h2 {
 .section-quotes__testimonials-block {
   position: relative;
   display: flex;
-  background-color: #F3F5FA;
-  width: 423px;
-  padding: 40px 70px;
+  background-color: #f5f8ff;
+  width: 26.25rem;
+  padding: 2.5rem 4.25rem;
 }
 .section-quotes__testimonials-block--disablet {
   position: absolute;
   opacity: 0.45;
-  right: -64px;
+  right: -4rem;
 }
 .section-quotes__testimonials-block--active {
   position: relative;
 }
 .section-quotes__testimonials .avatar {
   position: absolute;
-  bottom: -32px;
+  bottom: -2rem;
   left: 45%;
 }
 .section-quotes .dots {
-  margin-top: 80px;
+  margin-top: 5rem;
 }
 
 .avatar {
-  width: 62px;
-  height: 62px;
+  width: 3.75rem;
+  height: 3.75rem;
   border-radius: 100%;
 }
 
@@ -648,7 +648,7 @@ h2 {
 
 .stats {
   display: flex;
-  height: 340px;
+  height: 21.25rem;
 }
 .stats__left {
   width: 50%;
@@ -661,7 +661,7 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: end;
-  margin-right: 90px;
+  margin-right: 5.5rem;
   color: #fff;
 }
 .stats__productivity .text {
@@ -678,7 +678,7 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: start;
-  margin-left: 90px;
+  margin-left: 5.5rem;
   color: #5283ff;
 }
 .stats__users .text {
@@ -689,7 +689,7 @@ h2 {
   width: 260px;
 }
 .stats img {
-  margin: 66px 0 24px 0;
+  margin: 4rem 0 1.75rem 0;
 }
 
 .section-outer {
