@@ -1,0 +1,23 @@
+.socials-wrapper{
+    display: flex;
+    margin:0;
+    padding: 0;
+    align-items: center;
+    list-style: none;
+    &__item{
+        & + &{
+            margin-left: $base * 9;
+        }
+        &-link{
+            path{
+                fill: $color-gray-300;
+                transition: $transition;
+            }
+            &:hover{
+                path{
+                    fill: $color-gray-600;
+                }
+            }
+        }
+    }
+}

@@ -138,6 +138,25 @@ h2 {
   font-weight: 500;
 }
 
+.burger {
+  display: none;
+  margin-left: auto;
+}
+.burger__line {
+  display: block;
+  width: 30px;
+  height: 2px;
+  background-color: black;
+}
+.burger__line:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+@media (max-width: 767px) {
+  .burger {
+    display: block;
+  }
+}
 .logo {
   display: block;
   width: 1.25rem;
@@ -147,6 +166,12 @@ h2 {
 }
 
 .main-navigation {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.main-navigation__inner-wrap {
+  width: 100%;
   display: flex;
   align-items: center;
 }
@@ -184,10 +209,11 @@ h2 {
   font-weight: 700;
 }
 
-.socials {
-  margin-left: auto;
+@media (max-width: 840px) {
+  .nav {
+    margin-left: 1.5rem;
+  }
 }
-
 .socials-wrapper {
   display: flex;
   margin: 0;
@@ -206,6 +232,15 @@ h2 {
   fill: #7382a3;
 }
 
+.section-header .socials {
+  margin-left: auto;
+}
+
+@media (max-width: 767px) {
+  .section-header .main-navigation__inner-wrap {
+    display: none;
+  }
+}
 .section-blog {
   position: relative;
   background-color: #f5f8ff;
@@ -435,8 +470,8 @@ h2 {
   right: 1rem;
 }
 
-.section-footer {
-  border-bottom: none;
+.section-footer .socials {
+  margin-left: auto;
 }
 
 .copyright {
@@ -447,6 +482,44 @@ h2 {
   color: #676f95;
 }
 
+@media (max-width: 767px) {
+  .section-footer .socials {
+    margin-left: 0;
+  }
+  .section-footer .logo {
+    margin-bottom: 40px;
+  }
+  .section-footer .main-navigation {
+    flex-direction: column;
+  }
+  .section-footer .main-navigation .nav {
+    margin-left: 0;
+  }
+  .section-footer .main-navigation__inner-wrap {
+    flex-direction: column;
+  }
+  .section-footer .main-navigation__inner-wrap > * {
+    margin-bottom: 40px;
+  }
+  .section-footer .main-navigation .btn-wrapper {
+    margin-left: 0;
+  }
+  .section-footer .copyright {
+    text-align: center;
+    padding: 0;
+  }
+}
+@media (max-width: 575px) {
+  .section-footer .nav-wrapper {
+    flex-direction: column;
+  }
+  .section-footer .nav-wrapper__item {
+    margin: 0;
+  }
+  .section-footer .nav-wrapper__item:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
 .section-get-started {
   background-color: #5e81fe;
 }
@@ -683,6 +756,9 @@ h2 {
 }
 
 .section-outer {
+  margin: 0 20px;
+}
+.section-outer:not(:last-child) {
   border-bottom: 1px solid #aeb8d0;
 }
 

@@ -12,13 +12,18 @@
 @import 'stats';
 
 .section-outer{
-    border-bottom: 1px solid $color-gray-200;
+    
+    margin: 0 20px;
+
+    &:not(:last-child){
+        border-bottom: 1px solid $color-gray-200;
+    }
 }
 
 .section-inner{
     max-width: 900px;
     margin: 0 auto;
-
+    
     &--wide{
         max-width: 1200px;
     }

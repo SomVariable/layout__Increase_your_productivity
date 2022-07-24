@@ -1,0 +1,22 @@
+.burger{
+    display: none;
+    margin-left: auto;
+    
+    &__line{
+        display: block;
+        width: 30px;
+        height: 2px;
+        background-color:black;
+        &:not(:last-child){
+            margin-bottom: 5px;
+        }
+    }
+}
+
+
+
+@media (max-width: $breakpoint-md-max) {
+    .burger{
+        display: block; 
+    }
+}

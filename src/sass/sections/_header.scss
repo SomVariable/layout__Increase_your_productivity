@@ -1,86 +1,21 @@
 
 // === header ===
 
-.logo{
-    display: block;
-    width: $base * 5;
-    height: $base * 5;
-    border-radius: 100%;
-    background-color: $color-blue-400;
-}
-
-
-.main-navigation{
-    display: flex;
-    align-items: center;
-
-    .btn-wrapper{
-        margin-left: $base * 11;
+.section-header{
+    .socials{
+        margin-left: auto;
     }
 }
 
-.nav{
-    margin-left: $base * 18;
-}
 
-.nav-wrapper{
-    display: flex;
-    margin:0;
-    padding: 0;
-    list-style: none;
-    align-items: center;
+
+@media (max-width: $breakpoint-md-max) {
+    .section-header{
+        .main-navigation__inner-wrap{
+            display: none;
+        }
+    }
     
-    &__item{
-        & + &{
-            margin-left: $base * 10;
-        }
-        &-link{
-            @include quicksand;
-
-            color: $color-gray-800;
-            font-size: $fs-xs;
-            text-decoration: none;
-            font-weight: $fw-medium;
-            transition: $transition;
-
-            &:hover{
-                color: $color-blue-400;
-            }
-
-            &--active{
-                color: $color-blue-400;
-                font-weight: $fw-bold;
-            }
-        }
-    }
-}
-
-.socials{
-    margin-left: auto;
-}
-
-.socials-wrapper{
-    display: flex;
-    margin:0;
-    padding: 0;
-    align-items: center;
-    list-style: none;
-    &__item{
-        & + &{
-            margin-left: $base * 9;
-        }
-        &-link{
-            path{
-                fill: $color-gray-300;
-                transition: $transition;
-            }
-            &:hover{
-                path{
-                    fill: $color-gray-600;
-                }
-            }
-        }
-    }
 }
 
 
