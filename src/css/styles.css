@@ -81,8 +81,14 @@ h2 {
   color: #8d96db;
 }
 
+@media (max-width: 575px) {
+  .section-subtitle {
+    font-size: 18px;
+  }
+}
 .dots {
   display: flex;
+  width: 100%;
   margin: 0;
   padding: 0;
   margin: 0;
@@ -127,6 +133,44 @@ h2 {
   padding-bottom: 7.5rem;
 }
 
+@media (max-width: 575px) {
+  .vertical-index--s {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .vertical-index--m {
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+  }
+  .vertical-index--l {
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
+  }
+}
+@media (max-width: 768px) {
+  .vertical-index--s {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .vertical-index--m {
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+  }
+  .vertical-index--l {
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
+  }
+}
+@media (max-width: 576px) {
+  .vertical-index--m {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+  .vertical-index--l {
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+  }
+}
 .section-subtitle {
   font-family: "Quicksand", sans-serif;
   margin-bottom: 1.75rem;
@@ -138,6 +182,16 @@ h2 {
   font-weight: 500;
 }
 
+@media (max-width: 680px) {
+  .section-subtitle {
+    font-size: 36px;
+  }
+}
+@media (max-width: 575px) {
+  .section-subtitle {
+    font-size: 24px;
+  }
+}
 .burger {
   display: none;
   margin-left: auto;
@@ -554,7 +608,7 @@ h2 {
 }
 .section-hero-image .dots {
   position: absolute;
-  left: 49%;
+  justify-content: center;
   bottom: 1.75rem;
 }
 
@@ -577,11 +631,9 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 5.25rem;
 }
 .slider-hero-image__item-content .text {
   width: 31.25rem;
-  height: 4.5rem;
   margin: 1.75rem 0 1.25rem 0;
 }
 
@@ -607,6 +659,16 @@ h2 {
   border-left-color: #5e81fe;
 }
 
+@media (max-width: 767px) {
+  .slider-hero-image__item {
+    height: 31rem;
+  }
+}
+@media (max-width: 575px) {
+  .slider-hero-image .text {
+    width: 17.5rem;
+  }
+}
 .section-newsletter__content {
   display: flex;
   align-items: center;

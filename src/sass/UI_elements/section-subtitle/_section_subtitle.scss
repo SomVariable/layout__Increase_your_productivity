@@ -9,3 +9,16 @@
         font-weight: $fw-medium;
     }
 }
+
+
+@media (max-width: 680px){
+    .section-subtitle{
+        font-size: $fs-xl;
+    }
+}
+
+@media (max-width: $breakpoint-sm-max){
+    .section-subtitle{
+        font-size: $fs-l;
+    }
+}

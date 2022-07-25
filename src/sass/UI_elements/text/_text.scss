@@ -8,3 +8,9 @@
     letter-spacing: 0.03em;
     color: $color-gray-500;
 }
+
+@media (max-width: $breakpoint-sm-max){
+    .section-subtitle{
+        font-size: $fs-m;
+    }
+}
