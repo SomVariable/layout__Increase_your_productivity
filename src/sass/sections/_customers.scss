@@ -14,20 +14,55 @@
         }
 
         &__logo{
+            svg{
+                height: 23px;
+            }
             path{
+                
                 transition: $transition;
                 fill: $color-gray-100;
             }
             &:hover{
                 path{
+                    
                     fill: $color-blue-400;
                 }
             }
         }
 
+        &__link{
+            display: block;
+            width: 117px;
+            margin: 0 auto;
+            
+        }
+
+        
+
         
     }
 
+}
+
+
+@media (max-width: $breakpoint-lg-max){
+    .section-customers{
+        &-wrapper{
+            flex-wrap: wrap;
+
+            &__logo + &__logo{
+                padding-left: 0;
+                
+            }
+
+            &__logo{
+                margin: 0 $base * 4;
+                padding-top: $base * 7;
+            }
+        }
+
+    }
+    
 }
 
 // === / customers ===
