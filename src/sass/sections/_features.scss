@@ -1,5 +1,5 @@
 .section-features{
-    max-height: 885px;
+    
 }
 
 .features{
@@ -106,20 +106,47 @@
         
         &__content{
             flex-wrap: wrap;
+            justify-content: center;
             &-item{
-                
+                & + &{
+                    margin-left: 0;
+                }
+                margin: 0 $base + 1;
+                & + &::before{
+                    display: none;
+                }
+
             }
         }
+
         
-        .btns{
-            display: flex;
-        }
+        
+        
     }
+
+    
     
 }
 
 
 @media (max-width: $breakpoint-sm-max){
+    .features{
+
+        .btns{
+            
+            flex-direction: column;
+            .btn-wrapper{
+                &:not(:first-child) {
+                    margin-top: 10px;
+                }
+            }
+        }
+    
+        .or-el{
+            display: none;
+        }
+        
+    }
     
 }
 

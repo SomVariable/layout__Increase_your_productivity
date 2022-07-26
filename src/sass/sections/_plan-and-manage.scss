@@ -1,20 +1,15 @@
 
 .section-plan-and-manage{
     background-color: $color-gray-50;
+    position: relative;
+    overflow: hidden;
 }
 
 .plan-and-manage{
-    display: flex;
-    position: relative;
-    align-items: center;
     &__content{
+        width: 50%;
+        margin: 0 $base + 1;
         
-        display: flex;
-        flex-direction: column;
-        max-width: $base * 101;
-        margin-right: $base * 16;
-        margin-left: $base + 1;
-
         h2{
             margin-bottom: $base * 8;
         }
@@ -26,21 +21,15 @@
     }
 
     &__img{
+        position: absolute;
+        top: 15%;
+        left: 60%;
+
         max-width: 617px;
     }
 
 }
 
-
-
-
-@media (max-width: $breakpoint-lg-max){
-    .plan-and-manage{
-        &__illustration{
-            overflow: hidden;
-        }
-    }
-}
 
 @media (max-width: $breakpoint-md-max){
     .plan-and-manage{
@@ -54,10 +43,21 @@
 
 
 @media (max-width: $breakpoint-sm-max){
+    
+
     .plan-and-manage{
         &__content{
-            max-width: $base * 131;
+            
+            width: 90%;
             margin-right: $base;
+            .text{
+                width: 100%;
+                height: 150px;
+            }
+        }
+
+        &__img{
+            display: none;
         }
     }
 }

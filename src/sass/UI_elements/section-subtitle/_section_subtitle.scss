@@ -11,14 +11,21 @@
 }
 
 
-@media (max-width: 680px){
+@media (max-width: $breakpoint-md-max){
     .section-subtitle{
         font-size: $fs-xl;
     }
 }
 
-@media (max-width: $breakpoint-sm-max){
+@media (max-width: 680px){
     .section-subtitle{
         font-size: $fs-l;
     }
 }
+
+@media (max-width: $breakpoint-sm-max){
+    .section-subtitle{
+        font-size: $fs-m;
+    }
+}
+
