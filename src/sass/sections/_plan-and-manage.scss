@@ -7,13 +7,13 @@
     display: flex;
     position: relative;
     align-items: center;
-    height: $base * 194;
     &__content{
         
         display: flex;
         flex-direction: column;
-        min-width: $base * 101;
+        max-width: $base * 101;
         margin-right: $base * 16;
+        margin-left: $base + 1;
 
         h2{
             margin-bottom: $base * 8;
@@ -25,4 +25,39 @@
 
     }
 
+    &__img{
+        max-width: 617px;
+    }
+
+}
+
+
+
+
+@media (max-width: $breakpoint-lg-max){
+    .plan-and-manage{
+        &__illustration{
+            overflow: hidden;
+        }
+    }
+}
+
+@media (max-width: $breakpoint-md-max){
+    .plan-and-manage{
+        &__content{
+            max-width: $base * 121;
+        }
+
+    }
+    
+}
+
+
+@media (max-width: $breakpoint-sm-max){
+    .plan-and-manage{
+        &__content{
+            max-width: $base * 131;
+            margin-right: $base;
+        }
+    }
 }

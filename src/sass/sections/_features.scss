@@ -6,7 +6,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 770px;
+    
 
     .section-subtitle{
         font-size: $fs-l;
@@ -94,6 +94,33 @@
     &::after{
         right: $base * 4;
     }
+}
+
+
+@media (max-width: $breakpoint-lg-max){
+    
+}
+
+@media (max-width: $breakpoint-md-max){
+    .features{
+        
+        &__content{
+            flex-wrap: wrap;
+            &-item{
+                
+            }
+        }
+        
+        .btns{
+            display: flex;
+        }
+    }
+    
+}
+
+
+@media (max-width: $breakpoint-sm-max){
+    
 }
 
 // === / features ===
